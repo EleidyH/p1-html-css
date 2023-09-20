@@ -1,23 +1,23 @@
-h1{
+h1 {
     font-size: 24px;
     color: rgb(255, 1, 128);
     font-weight: bolder;
     font-style: italic;
 }
 
-h2{
+h2 {
     font-size: 20px;
     color: #0000ff;
     font-weight: bolder;
 }
 
-h3{
+h3 {
     font-size: 16px;
     color: teal;
     font-weight: bolder;
 }
 
-p{
+p {
     color: #4D4D4D;
 }
 
