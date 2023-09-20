@@ -1,0 +1,60 @@
+h1{
+    font-size: 24px;
+    color: rgb(255, 1, 128);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: bolder;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+.content p:first-of-type {
+    font-weight: bold; 
+    color: rgb(255, 1, 128);
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw; 
+    min-height: 33vh; 
+    background-image: url('img/GameOn.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 33vh;
+}
+
+img {
+    background-image: url('img/lastpart.jpeg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 80vh;
+    width: 60vw; 
+}
+
+article {
+    border: 2px solid #000000; 
+    border-radius: 15px; 
+    border-left-width: 5px; 
+    border-left-color: #000000; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
