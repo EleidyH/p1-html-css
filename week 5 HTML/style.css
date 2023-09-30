@@ -1,0 +1,39 @@
+.parent {
+    width: 90vw;
+    background-color: deepskyblue;
+    padding: 20px;
+    
+    /*
+    border-style: dashed; 
+    */
+}
+
+.child {
+    padding: 10px;
+    
+    /*margin: 20px;
+    border-style:solid; */
+
+
+}
+
+.child-one {
+    
+    background-color: rgb(167, 245, 146);
+    margin-top: 20px;
+}
+
+.child-two {
+    background-color: rgb(211, 170, 248);
+    margin-top: 50px;
+
+}
+.child-three {
+    background-color: rgb(255, 179, 185);
+    margin-top: 40px;
+    
+    /* margin-top: 40px; */
+    
+    /*top: 10px;
+    position: fixed; */
+}
