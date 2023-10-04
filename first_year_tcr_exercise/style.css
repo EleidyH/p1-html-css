@@ -11,6 +11,7 @@ body {
   background-color: black;
   color: white; /* Optioneel: tekstkleur instellen op wit voor contrast */
   font-weight: bolder;
+  position: absolute;
 }
 
 nav {
@@ -23,6 +24,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
 }
 nav ul {
   display: flex;
@@ -37,6 +40,7 @@ nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
@@ -66,7 +70,9 @@ body, html {
   height: 100px;
   text-align: center;
   font-size: 30px;
-  position: absolute;
+  position: fixed;
+  padding: 10px 0;
+  bottom: 0;
 }
 
 h1{
@@ -78,7 +84,7 @@ h1{
   font-weight: 700;
   line-height: normal;
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -92,7 +98,7 @@ h2{
   font-weight: 700;
   line-height: normal;
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%); 
 }
@@ -102,7 +108,8 @@ h2{
   font-family: Goldman;
   font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: normal;
   word-wrap: break-word;
 }
+
