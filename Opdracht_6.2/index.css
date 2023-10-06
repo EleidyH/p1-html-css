@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+  }
+  
+  .square1 {
+    width: 200px;
+    height: 200px;
+    background-color: #0f2fe0;
+    margin: 10px; /* Ruimte tussen de vierkanten */
+    order: 4;
+  }
+  
+  .square2 {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    margin: 10px; /* Ruimte tussen de vierkanten */
+    order: 3;
+  }
+
+  .square3 {
+    width: 200px;
+    height: 200px;
+    background-color: #db3434;
+    margin: 10px; /* Ruimte tussen de vierkanten */
+    order: 2;
+  }
+
+  .square4 {
+    width: 200px;
+    height: 200px;
+    background-color: #035a00;
+    margin: 10px; /* Ruimte tussen de vierkanten */
+  } 
